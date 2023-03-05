@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 
+    font-family: var(--ff);
 }
 
 input. textarea, button {
@@ -30,10 +30,24 @@ html {
 
     --fs-primary-heading: clamp(3rem, 5vw, 5rem);
     --fs-secondary-heading: clamp(2rem, 3vw, 3rem);
-    --fs-paragraph: clamp: clamp(1rem, 2vw, 2rem);
+    --fs-paragraph-1: clamp: clamp(1rem, 2vw, 2rem);
+    --fs-paragraph-2: clamp(0.7rem, 1vw, 1rem);
 
     --primary-color: #2091F9;
+    --secondary-color: #252B42;
+    --neutral-1: #fff;
+    --neutral-2: #737373;
 }
 
 /* Utility classes */
+
+h1 {
+    font-size: var(--fs-primary-heading);
+}
+
+h2 {
+    font-size: var(--fs-secondary-heading);
+}
+
+
 
