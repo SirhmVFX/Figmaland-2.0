@@ -1,5 +1,5 @@
 /* Font Import */
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:display=swap');
 
 
 /* Document Reser */
@@ -30,7 +30,7 @@ html {
 
     --fs-primary-heading: clamp(3rem, 5vw, 5rem);
     --fs-secondary-heading: clamp(2rem, 3vw, 3rem);
-    --fs-paragraph-1: clamp: clamp(1rem, 2vw, 2rem);
+    --fs-paragraph-1: clamp(1rem, 2vw, 2rem);
     --fs-paragraph-2: clamp(0.7rem, 1vw, 1rem);
 
     --primary-color: #2091F9;
@@ -47,6 +47,20 @@ h1 {
 
 h2 {
     font-size: var(--fs-secondary-heading);
+}
+
+p {
+    font-size: var(--fs-paragraph-1);
+    font-weight: 50;
+}
+
+.primary-button {
+    width: 147px;
+    padding: 1rem;
+    font-size: var(--fs-paragraph-1);
+    border-radius: 10px;
+    background-color: var(--neutral-1);
+    border: none;
 }
 
 
