@@ -1,0 +1,31 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Montserratdisplay=swap');
+
+/* document reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button, textarea, input {
+    font: inherit;
+}
+
+/* variables */
+:root {
+    --ff: 'Montserrat', sans-serif;
+
+    --fs-primary-heading: clamp(3rem, 5vw, 5rem)
+    --fs-secondary-heading: clamp(2rem, 3vw, 3rem)
+    --fs-paragraph: clamp(2rem, 2vw, 2rem)
+
+    --primary-color: #2091F9;
+    --secondary-color: #252B42;
+    --neutral1: #fff;
+    --neutral2: #737373;
+}
