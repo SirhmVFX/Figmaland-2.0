@@ -27,9 +27,9 @@ button, textarea, input {
 :root {
     --ff: 'Montserrat', sans-serif;
 
-    --fs-primary-heading: clamp(3rem, 5vw, 5rem)
-    --fs-secondary-heading: clamp(2rem, 3vw, 3rem)
-    --fs-paragraph: clamp(2rem, 2vw, 2rem)
+    --fs-primary-heading: clamp(3rem, 5vw, 5rem);
+    --fs-secondary-heading: clamp(2rem, 3vw, 3rem);
+    --fs-paragraph: clamp(2rem, 2vw, 2rem);
 
     --primary-color: #2091F9;
     --secondary-color: #252B42;
@@ -44,14 +44,43 @@ button, textarea, input {
     margin-inline: auto;
 }
 
+h1 {
+    font-size: var(--fs-primary-heading);
+}
+
+p {
+    font-size: var(--fs-paragraph);
+}
+
 
 /* styles */
 header {
     width: min(1400px, 90%);
     display: grid;
     margin-inline: auto;
+    position: fixed;
 }
+
 
 nav {
     display: flex;
+}
+
+.hero__section {
+    background-image: url(/Gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding-top: 18rem;
+    color: var(--neutral1);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hero__content {
+    width: min(1200px, 70%);
 }
