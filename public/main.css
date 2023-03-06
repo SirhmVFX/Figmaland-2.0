@@ -46,6 +46,7 @@ button, textarea, input {
 
 h1 {
     font-size: var(--fs-primary-heading);
+    font-weight: 900;
 }
 
 p {
@@ -56,14 +57,37 @@ p {
 /* styles */
 header {
     width: min(1400px, 90%);
-    display: grid;
+    display: flex;
     margin-inline: auto;
+    justify-content: center;
     position: fixed;
 }
 
 
 nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav figure {
+    width: 20%;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    
+}
+
+.nav__menu li {
+    list-style: none;
+    
+}
+
+.nav__menu li a {
+    text-decoration: none;
 }
 
 .hero__section {
