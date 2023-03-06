@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--ff);
 }
 
 html {
@@ -28,4 +29,23 @@ button, textarea, input {
     --secondary-color: #252B42;
     --neutral1: #fff;
     --neutral2: #737373;
+}
+
+/* utility classes */
+.container {
+    width: min(1200px, 70%);
+    display: grid;
+    margin-inline: auto;
+}
+
+
+/* styles */
+header {
+    width: min(1400px, 90%);
+    display: grid;
+    margin-inline: auto;
+}
+
+nav {
+    display: flex;
 }
