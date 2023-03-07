@@ -43,7 +43,7 @@ button, textarea, input {
     width: min(1400px, 90%);
     display: grid;
     margin-inline: auto;
-    padding: 4rem;
+    padding: 6rem 4rem;
 }
 
 h1 {
@@ -193,6 +193,7 @@ nav figure {
 .feat__card figure {
     width: 20%;
 }
+
 
 /* MEDIA QUERIES */
 
