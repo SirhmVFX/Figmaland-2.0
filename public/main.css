@@ -42,6 +42,7 @@ button, textarea, input {
     width: min(1200px, 70%);
     display: grid;
     margin-inline: auto;
+    padding: 4rem;
 }
 
 h1 {
@@ -62,7 +63,7 @@ p {
 }
 
 .secondary-color {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .neutral1 {
