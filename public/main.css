@@ -58,16 +58,25 @@ p {
     padding: 1rem 1.5rem;
     border: none;
     border-radius: 10px;
+    color: var(--primary-color);
+}
+
+input {
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 10px;
 }
 
 
 /* styles */
-header {
-    width: min(1400px, 90%);
+.nav__bar {
+    width: min(1200px, 90%);
     display: flex;
-    margin-inline: auto;
     justify-content: center;
+    margin-inline: auto;
     position: fixed;
+    left: 0;
+    right: 0;
 }
 
 
@@ -84,7 +93,7 @@ nav figure {
 .nav__menu {
     display: flex;
     justify-content: space-around;
-    gap: 1rem;
+    gap: 2rem;
     
 }
 
@@ -103,7 +112,7 @@ nav figure {
     background-repeat: no-repeat;
     background-size: cover;
     
-    padding-top: 18rem;
+    padding-top: 16rem;
     color: var(--neutral1);
     text-align: center;
 
