@@ -78,6 +78,7 @@ h4 {
 .secondary-color2 {
     color: var(--secondary-color2);
 }
+
 .neutral1 {
     color: var(--neutral1);
 }
@@ -115,6 +116,7 @@ h4 {
 
 .bg-color {
     background-color: var(--secondary-color);
+    width: 100%;
 }
 
 .sub {
@@ -232,6 +234,26 @@ nav figure {
 
 .feat__card figure {
     width: 20%;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.socials figure {
+    width: 8%;
+}
+
+footer figure {
+    width: 10%;
+}
+
+footer {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 
