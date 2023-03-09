@@ -284,6 +284,7 @@ nav figure {
     padding: 3rem;
     gap: 3rem;
     margin-inline: auto;
+    flex-wrap: wrap;
 }
 
 
