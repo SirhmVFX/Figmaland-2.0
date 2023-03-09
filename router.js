@@ -5,6 +5,6 @@ const pageControllers = require("./controllers/pageControllers")
 
 router.get("/", pageControllers.homepage)
 router.get("/product", pageControllers.productPage)
-router.get("/product-list", pageControllers.productList)
+router.get("/product/product-list", pageControllers.productList)
 
 module.exports = router
