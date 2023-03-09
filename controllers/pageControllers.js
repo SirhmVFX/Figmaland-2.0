@@ -7,5 +7,5 @@ exports.productPage = function(req, res) {
 }
 
 exports.productList = function(req, res) {
-    res.render("product-list")
+    res.render("product-list", {pageTitle: "Product List"})
 }
