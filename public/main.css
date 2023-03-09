@@ -277,6 +277,28 @@ nav figure {
     width: 8%;
 }
 
+.product__listing {
+    width: min(1400px, 90%);
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    gap: 3rem;
+    margin-inline: auto;
+}
+
+
+.product__card {
+    width: 315px;
+    box-shadow: 5px 5px 10px gainsboro;
+}
+
+.product__content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 footer figure {
     width: 10%;
 }
