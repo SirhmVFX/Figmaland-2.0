@@ -9,3 +9,7 @@ exports.productPage = function(req, res) {
 exports.productList = function(req, res) {
     res.render("product-list", {pageTitle: "Product List"})
 }
+
+exports.pricingPage = function (req, res) {
+    res.render("pricing", {pageTitle: "Pricing"})
+}

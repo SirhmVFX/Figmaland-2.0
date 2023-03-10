@@ -154,7 +154,7 @@ input {
 
 /* styles */
 .nav__bar {
-    width: min(1200px, 90%);
+    width: min(1400px, 90%);
     display: flex;
     justify-content: center;
     margin-inline: auto;
