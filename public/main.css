@@ -300,6 +300,11 @@ nav figure {
     gap: 1rem;
 }
 
+.pr {
+    display: flex;
+    justify-content: center;
+}
+
 footer figure {
     width: 10%;
 }
