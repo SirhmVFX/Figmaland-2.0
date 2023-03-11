@@ -320,6 +320,12 @@ nav figure {
     color: var(--neutral1);
 }
 
+.price {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
 
 footer figure {
     width: 10%;
