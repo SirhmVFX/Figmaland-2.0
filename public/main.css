@@ -331,6 +331,9 @@ nav figure {
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
+    padding: 3rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
 }
 
 .amount {
@@ -338,8 +341,14 @@ nav figure {
     align-items: center;
 }
 
+.price-features figure {
+    width: 10%;
+}
+
 .price-features {
-    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 footer figure {
