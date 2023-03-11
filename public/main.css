@@ -305,6 +305,12 @@ nav figure {
     justify-content: center;
 }
 
+.pr-db {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: var(--neutral1);
+}
 footer figure {
     width: 10%;
 }
