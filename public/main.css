@@ -336,6 +336,7 @@ nav figure {
     border-radius: 10px;
 }
 
+
 .amount {
     display: flex;
     align-items: center;
@@ -349,6 +350,7 @@ nav figure {
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-block: 1rem;
 }
 
 footer figure {
