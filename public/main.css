@@ -311,6 +311,15 @@ nav figure {
     border-radius: 10px;
     color: var(--neutral1);
 }
+
+.pr-db2 {
+    padding: 1rem;
+    background-color: var(--neutral2);
+    border-radius: 10px;
+    color: var(--neutral1);
+}
+
+
 footer figure {
     width: 10%;
 }
