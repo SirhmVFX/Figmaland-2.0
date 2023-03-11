@@ -331,11 +331,16 @@ nav figure {
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    text-align: center;
 }
 
-.price
+.amount {
+    display: flex;
+    align-items: center;
+}
 
+.price-features {
+    
+}
 
 footer figure {
     width: 10%;
