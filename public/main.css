@@ -347,7 +347,7 @@ nav figure {
     padding: 3rem;
     border: 1px solid var(--primary-color);
     border-radius: 10px;
-    background-image: linear-gradient(green, var(--primary-color));
+    background-image: linear-gradient(var(--primary-color), rgb(136, 255, 223));
     color: var(--neutral1);
 }
 
