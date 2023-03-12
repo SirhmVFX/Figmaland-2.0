@@ -324,6 +324,7 @@ nav figure {
     display: flex;
     justify-content: center;
     gap: 3rem;
+    text-align: center;
 }
 
 .price-card {
@@ -334,12 +335,15 @@ nav figure {
     padding: 3rem;
     border: 1px solid var(--primary-color);
     border-radius: 10px;
+    /* text-align: center; */
 }
 
 
 .amount {
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: left;
 }
 
 .price-features figure {
@@ -350,7 +354,7 @@ nav figure {
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-block: 1rem;
+    margin-block: 1.5rem;
 }
 
 footer figure {
