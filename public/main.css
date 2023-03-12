@@ -325,6 +325,7 @@ nav figure {
     justify-content: center;
     gap: 3rem;
     text-align: center;
+    padding: 4rem;
 }
 
 .price-card {
@@ -336,6 +337,18 @@ nav figure {
     border: 1px solid var(--primary-color);
     border-radius: 10px;
     /* text-align: center; */
+}
+
+.price-card2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    background-image: linear-gradient(green, var(--primary-color));
+    color: var(--neutral1);
 }
 
 
