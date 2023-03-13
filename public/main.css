@@ -378,6 +378,11 @@ nav figure {
     display: block;
 }
 
+.test {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .testimonial-card {
     border: 1px solid gainsboro;
@@ -393,9 +398,14 @@ nav figure {
 .profile {
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 footer figure {
     width: 10%;
+}
+
+.margin-block {
+    margin-block: 2rem;
 }
 
 footer {
