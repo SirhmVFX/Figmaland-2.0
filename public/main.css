@@ -369,6 +369,11 @@ nav figure {
     margin-block: 1.5rem;
 }
 
+.faq {
+    color: var(--secondary-color);
+    line-height: 2;
+}
+
 footer figure {
     width: 10%;
 }
