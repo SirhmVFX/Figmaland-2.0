@@ -374,6 +374,10 @@ nav figure {
     line-height: 2;
 }
 
+.d {
+    display: block;
+}
+
 footer figure {
     width: 10%;
 }
