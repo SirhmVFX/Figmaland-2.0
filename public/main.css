@@ -378,6 +378,22 @@ nav figure {
     display: block;
 }
 
+
+.testimonial-card {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 335px;
+}
+
+.testimonial-card figure {
+    width: 20%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
 footer figure {
     width: 10%;
 }
