@@ -14,4 +14,6 @@ exports.pricingPage = function (req, res) {
     res.render("pricing", {pageTitle: "Pricing"})
 }
 
-exports.blogPage = function
+exports.blogPage = function (req, res) {
+    res.render("blog", {pageTitle: "Blog"})
+}
