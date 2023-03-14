@@ -13,3 +13,5 @@ exports.productList = function(req, res) {
 exports.pricingPage = function (req, res) {
     res.render("pricing", {pageTitle: "Pricing"})
 }
+
+exports.blogPage = function
