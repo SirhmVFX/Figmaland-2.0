@@ -49,6 +49,9 @@ button, textarea, input {
     text-align: center;
 }
 
+.margin--block {
+    margin-block: 1rem;
+}
 
 h1 {
     font-size: var(--fs-primary-heading);
