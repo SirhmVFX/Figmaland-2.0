@@ -400,6 +400,22 @@ nav figure {
     align-items: center;
     gap: 1rem;
 }
+
+.blog__posts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.blog__card {
+    width: 331px;
+}
+
+.blog__content {
+    padding: 1.1rem;
+}
+
 footer figure {
     width: 10%;
 }
