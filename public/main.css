@@ -19,6 +19,7 @@ img {
     height: auto;
 }
 
+
 button, textarea, input {
     font: inherit;
 }
@@ -413,6 +414,7 @@ nav figure {
 
 .blog__card {
     width: 331px;
+    transition: transform .2s;
 }
 
 .blog__content {
@@ -425,6 +427,10 @@ nav figure {
     color: var(--primary-color);
     gap: 1rem;
     margin-block: 2rem;
+}
+
+.blog__card:hover {
+    transform: scale(1.1);
 }
 
 footer figure {
