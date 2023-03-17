@@ -436,8 +436,15 @@ nav figure {
 
 .vision-screen {
     width: min(1000px, 50%);
+    padding-top: 10rem;
     display: grid;
     margin-inline: auto;
+}
+
+.prfile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 footer figure {
