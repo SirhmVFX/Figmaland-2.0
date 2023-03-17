@@ -433,6 +433,13 @@ nav figure {
     transform: scale(1.1);
 }
 
+
+.vision-screen {
+    width: min(1000px, 50%);
+    display: grid;
+    margin-inline: auto;
+}
+
 footer figure {
     width: 10%;
 }
