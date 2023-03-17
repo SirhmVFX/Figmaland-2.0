@@ -17,3 +17,7 @@ exports.pricingPage = function (req, res) {
 exports.blogPage = function (req, res) {
     res.render("blog", {pageTitle: "Blog"})
 }
+
+exports.visionPage = function (req, res) {
+    res.render("vision", {pageTitle: "Vision"})
+}
