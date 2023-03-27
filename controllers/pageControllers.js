@@ -23,5 +23,5 @@ exports.visionPage = function (req, res) {
 }
 
 exports.indexPage = function(req, res) {
-    res.render("index", {pageTitle: indexPage})
+    res.render("index", {pageTitle: "indexPage"})
 }
