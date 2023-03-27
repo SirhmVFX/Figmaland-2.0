@@ -21,3 +21,5 @@ exports.blogPage = function (req, res) {
 exports.visionPage = function (req, res) {
     res.render("vision", {pageTitle: "Vision"})
 }
+
+exports.

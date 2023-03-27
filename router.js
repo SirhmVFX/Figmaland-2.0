@@ -9,5 +9,6 @@ router.get("/product/product-list", pageControllers.productList)
 router.get("/pricing", pageControllers.pricingPage)
 router.get("/blog", pageControllers.blogPage)
 router.get("/vision", pageControllers.visionPage)
+router.get("/index", pageControllers.indexPage)
 
 module.exports = router
