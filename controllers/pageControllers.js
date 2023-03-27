@@ -22,4 +22,6 @@ exports.visionPage = function (req, res) {
     res.render("vision", {pageTitle: "Vision"})
 }
 
-exports.
+exports.indexPage = function(req, res) {
+    res.render("index", {pageTitle: indexPage})
+}
