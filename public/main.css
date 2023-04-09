@@ -433,7 +433,8 @@ nav figure {
     transform: scale(1.1);
 }
 .ss {
-    display: ;
+    display: flex;
+    flex-direction: column;
 }
 
 .vision-screen {
