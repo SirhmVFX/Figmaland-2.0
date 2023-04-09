@@ -432,8 +432,9 @@ nav figure {
 .blog__card:hover {
     transform: scale(1.1);
 }
-
-
+.ss {
+    display: ;
+}
 
 .vision-screen {
     width: min(1000px, 50%);
