@@ -434,7 +434,6 @@ nav figure {
 }
 .ss {
     display: flex;
-    flex-direction: column;
 }
 
 .vision-screen {
